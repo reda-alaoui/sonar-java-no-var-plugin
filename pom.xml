@@ -18,6 +18,8 @@
 
     <sonarqube.min.version>6.7</sonarqube.min.version>
     <sonar-java-plugin.min.version>5.13.0.18197</sonar-java-plugin.min.version>
+    <sonar-analyzer-commons.version>1.15.0.699</sonar-analyzer-commons.version>
+
     <git-code-format-maven-plugin.version>2.7</git-code-format-maven-plugin.version>
   </properties>
 
@@ -48,6 +50,12 @@
       <type>sonar-plugin</type>
       <version>${sonar-java-plugin.min.version}</version>
       <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.sonarsource.analyzer-commons</groupId>
+      <artifactId>sonar-analyzer-commons</artifactId>
+      <version>${sonar-analyzer-commons.version}</version>
     </dependency>
 
     <dependency>

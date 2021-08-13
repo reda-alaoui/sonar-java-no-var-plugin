@@ -9,7 +9,7 @@ import org.sonar.plugins.java.api.tree.VariableTree;
 
 /** @author Réda Housni Alaoui */
 @Rule(key = "NoVar")
-class NoVarRule extends IssuableSubscriptionVisitor {
+public class NoVarRule extends IssuableSubscriptionVisitor {
 
   @Override
   public List<Tree.Kind> nodesToVisit() {
