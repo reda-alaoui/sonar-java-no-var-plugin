@@ -11,7 +11,7 @@ public class JavaNoVarRulesDefinition implements RulesDefinition {
     NewRepository repository =
         context.createRepository(JavaNoVarRepository.KEY, "java").setName("Java No Var Repository");
 
-    new RuleMetadataLoader("me/redaalaoui/sonar_java_no_var_plugin/rules/java")
+    new RuleMetadataLoader("me/redaalaoui/sonar_java_no_var_plugin/rules")
         .addRulesByAnnotatedClass(repository, Collections.<Class<?>>singletonList(NoVarRule.class));
 
     repository.done();
