@@ -1,3 +1,5 @@
+[![Maven Central Latest](https://img.shields.io/maven-central/v/me.redaalaoui.sonar/sonar-java-no-var-plugin.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22me.redaalaoui.sonar%22%20AND%20a%3A%22sonar-java-no-var-plugin%22)
+
 # Sonar Java No Var Plugin
 
 A sonar plugin deploying a rule against java 'var' usage
