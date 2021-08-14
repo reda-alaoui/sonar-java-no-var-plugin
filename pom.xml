@@ -74,7 +74,7 @@
         <version>1.18.0.372</version>
         <extensions>true</extensions>
         <configuration>
-          <pluginClass>me.reda_alaoui.sonar_java_no_var_plugin.JavaNoVarPlugin</pluginClass>
+          <pluginClass>me.redaalaoui.sonar_java_no_var_plugin.JavaNoVarPlugin</pluginClass>
         </configuration>
       </plugin>
       <plugin>

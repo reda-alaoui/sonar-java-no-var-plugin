@@ -1,4 +1,4 @@
-package me.reda_alaoui.sonar_java_no_var_plugin;
+package me.redaalaoui.sonar_java_no_var_plugin;
 
 import org.sonar.api.Plugin;
 
