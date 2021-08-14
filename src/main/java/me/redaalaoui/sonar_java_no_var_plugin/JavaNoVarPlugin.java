@@ -7,7 +7,6 @@ public class JavaNoVarPlugin implements Plugin {
 
   public void define(Context context) {
     context.addExtension(JavaNoVarRulesDefinition.class);
-
     context.addExtension(JavaNoVarRegistrar.class);
   }
 }
