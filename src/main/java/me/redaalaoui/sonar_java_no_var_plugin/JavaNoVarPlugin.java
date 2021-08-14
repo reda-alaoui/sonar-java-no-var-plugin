@@ -5,6 +5,7 @@ import org.sonar.api.Plugin;
 /** @author Réda Housni Alaoui */
 public class JavaNoVarPlugin implements Plugin {
 
+  @Override
   public void define(Context context) {
     context.addExtension(JavaNoVarRulesDefinition.class);
     context.addExtension(JavaNoVarRegistrar.class);

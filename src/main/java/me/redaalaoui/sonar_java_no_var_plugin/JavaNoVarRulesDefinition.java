@@ -7,6 +7,7 @@ import org.sonarsource.analyzer.commons.RuleMetadataLoader;
 /** @author Réda Housni Alaoui */
 public class JavaNoVarRulesDefinition implements RulesDefinition {
 
+  @Override
   public void define(Context context) {
     NewRepository repository =
         context.createRepository(JavaNoVarRepository.KEY, "java").setName("Java No Var Repository");

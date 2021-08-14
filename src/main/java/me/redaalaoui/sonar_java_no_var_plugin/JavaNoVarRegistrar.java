@@ -6,6 +6,8 @@ import org.sonar.plugins.java.api.JavaCheck;
 
 /** @author Réda Housni Alaoui */
 public class JavaNoVarRegistrar implements CheckRegistrar {
+
+  @Override
   public void register(RegistrarContext registrarContext) {
     Iterable<Class<? extends JavaCheck>> checkClasses =
         Collections.<Class<? extends JavaCheck>>singletonList(NoVarRule.class);
