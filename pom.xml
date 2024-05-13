@@ -4,7 +4,7 @@
 
   <groupId>me.redaalaoui.sonar</groupId>
   <artifactId>sonar-java-no-var-plugin</artifactId>
-  <version>2.1-SNAPSHOT</version>
+  <version>2.0-SNAPSHOT</version>
   <packaging>sonar-plugin</packaging>
 
   <name>Sonar Java No Var Plugin</name>
